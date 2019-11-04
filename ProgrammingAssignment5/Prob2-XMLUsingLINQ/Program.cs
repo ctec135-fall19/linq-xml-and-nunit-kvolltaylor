@@ -43,8 +43,8 @@ namespace Prob2_XMLUsingLINQ
             Methods.MakeXElementFromArray();
             // in order to make use of PrintToScreen method, the desired
             // XML document must already exist and be saved to disk
-            Methods.PrintToScreen("cd_catalog.xml");
-            // once the other two XML docs are generated and exist by calling
+            Methods.PrintToScreen("People.xml");
+            // once the two XML docs are generated and exist by calling
             // the CreateFullCarXDocument and MakeXElementFromArray methods
             // you can then call the PrintToScren method on them as well
             // E.g. 
