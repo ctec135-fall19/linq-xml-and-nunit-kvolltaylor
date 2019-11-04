@@ -27,6 +27,11 @@ namespace Problem1_LINQ
 {
     class Program
     {
+        // Input: array of strings
+        // Process: create query to find subset of strings, 
+        //          use query to change value of elements
+        // Output: print original array, and then print all returned results
+
         static void Main(string[] args)
         {
 
@@ -73,7 +78,7 @@ namespace Problem1_LINQ
             // print results
             ReflectOverQueryResults(subset, "Query Expression");
 
-            // print reslutls
+            // print results
             // deferred execution
             Console.WriteLine("\t* Immediate results using LINQ querry");
             foreach (var s in subset)
@@ -84,9 +89,9 @@ namespace Problem1_LINQ
 
             // demonstrate re-use of query
             // reassign the value of array items
-            inputArray[0] = "clarinet";
-            inputArray[4] = "bassoon";
-            inputArray[6] = "french horn";
+            inputArray[0] = "cauliflower";
+            inputArray[4] = "beets";
+            inputArray[6] = "fiddleheads";
 
             // demonstrate re-use of query
             Console.WriteLine("\t* Immediate results using LINQ querry after change to data");
